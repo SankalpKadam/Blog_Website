@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredoka+One&family=Poppins:wght@500&display=swap');
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Search bar tab and social media icons*/
+.search-form{
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+.search-form input{
+  border: none;
+  color: grey;
+  font-style: italic;
+  height: 40px;
+  width: 150px;
+  overflow: hidden;
+  font-family: 'Comic Neue', cursive;
+}
+.search-form button{
+  background: white;
+  border: none;
+}
+.search-form button i:hover{
+  color: #ffb6c1;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.mysocial-media a {
+  text-decoration: none;
+  color: black;
+}
+.mysocial-media a:hover{
+  color:#ffb6c1;
+  transition: 0.5s ease;
+}
+/*.search-form button img:hover{
+  -webkit-filter:grayscale(0);
+}*/
+.mysocial-media{
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+.mysocial-media a{
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+}
+.top-search-bar{
+  position: relative;
+  box-shadow: 5px 5px 20px grey;
+  height: 60px;
+}
+/*Menu logo*/
+.navbar a img{
+  text-align: center !important;
+  margin-top: 30px;
+}
+.navbar-nav{
+  text-align: center;
+}
+#Main-Menu nav #navbarNavDropdown .navbar-nav li a:hover{
+  color:#ffb6c1;
+  transition: 0.5s ease;
+}
+#Main-Menu nav #navbarNavDropdown .navbar-nav li a{
+   font-family: 'Poppins', sans-serif;
+   color: black;
+   padding-left: 25px;
+   padding-right: 25px;
+}
