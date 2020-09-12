@@ -15,7 +15,6 @@ body{
   color: grey;
   font-style: italic;
   height: 40px;
-  width: 150px;
   overflow: hidden;
   font-family: 'Comic Neue', cursive;
 }
@@ -50,7 +49,7 @@ body{
   height: 15px;
 }
 .top-search-bar{
-  position: relative;
+  position:relative;
   box-shadow: 5px 5px 20px grey;
   height: 60px;
 }
