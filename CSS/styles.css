@@ -59,9 +59,7 @@ body{
   text-align: center !important;
   margin-top: 30px;
 }
-.navbar-nav{
-  text-align: center;
-}
+/*Menu-Bar*/
 #Main-Menu nav #navbarNavDropdown .navbar-nav li a:hover{
   color:#ffb6c1;
   transition: 0.5s ease;
@@ -75,3 +73,21 @@ body{
 .dropdown:hover>.dropdown-menu{
   display: block;
 }
+.dropdown-menu{
+  animation: fadeIn 1.5s,translater 0.8s;
+  background: none;
+}
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+}
+@keyframes translater {
+  from{
+    top: 130px;
+  }
+}
+/*Menu-bar ends*/
