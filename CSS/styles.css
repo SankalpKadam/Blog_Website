@@ -59,6 +59,9 @@ body{
   margin-top: 30px;
 }
 /*Menu-Bar*/
+#Main-Menu .navbar{
+  background-color: white;
+}
 #Main-Menu nav #navbarNavDropdown .navbar-nav li a:hover{
   color:#ffb6c1;
   transition: 0.5s ease;
