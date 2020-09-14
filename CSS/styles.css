@@ -5,11 +5,6 @@ body{
   padding: 0;
 }
 /*Search bar tab and social media icons*/
-.search-form{
-  position: absolute;
-  left: 100px;
-  top: 10px;
-}
 .search-form input{
   border: none;
   color: grey;
@@ -38,11 +33,60 @@ body{
 /*.search-form button img:hover{
   -webkit-filter:grayscale(0);
 }*/
-.mysocial-media{
-  position: absolute;
-  right: 100px;
-  top: 20px;
+/*Search bar responsive*/
+@media (min-width:992px) {
+  .mysocial-media{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+  .search-form{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    width: 50%;
+  }
 }
+@media (min-width:768px) and (max-width:991px) {
+  .mysocial-media{
+    position: absolute;
+    right: 80px;
+    top: 20px;
+  }
+  .search-form{
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    width: 50%;
+  }
+}
+@media (min-width:576px) and (max-width:767px) {
+  .mysocial-media{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+  }
+  .search-form{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    width: 50%;
+  }
+}
+@media (max-width:575px) {
+  .mysocial-media{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+  }
+  .search-form{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 60%;
+  }
+}
+
 .mysocial-media a{
   padding: 10px;
   width: 15px;
