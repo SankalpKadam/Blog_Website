@@ -77,6 +77,20 @@ body{
 .navbaranim{
   animation: img 0.5s;
 }
+@media (max-width:991px) {
+  #Main-Menu #navbarNavDropdown ul{
+    animation:translator 1s;
+  }
+  @keyframes translator {
+    from{
+      transform: translate(-100px,0px);
+    }
+    to{
+      transform: translate(0px,0px);
+    }
+  }
+}
+
 #Main-Menu nav #navbarNavDropdown .navbar-nav li a:hover{
   color:#ffb6c1;
   transition: 0.5s ease;
