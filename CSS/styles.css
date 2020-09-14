@@ -30,9 +30,6 @@ body{
   color:#ffb6c1;
   transition: 0.5s ease;
 }
-/*.search-form button img:hover{
-  -webkit-filter:grayscale(0);
-}*/
 /*Search bar responsive*/
 @media (min-width:992px) {
   .mysocial-media{
@@ -156,17 +153,6 @@ body{
     background-color: #f2f4f8;
     margin-top: 2px;
   }
-  /*.open{
-    animation: translator 1s;
-  }
-  @keyframes translator {
-    from{
-      transform: translateX(-100%);
-    }
-    to{
-      transform: translateX(0);
-    }
-  }*/
 }
 
 #Main-Menu nav #navbarNavDropdown .navbar-nav li a:hover{
