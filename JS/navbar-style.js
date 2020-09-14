@@ -23,12 +23,12 @@ window.addEventListener("scroll",function () {
   const header=document.querySelector("#inside-navbar-brand");
   const mainmenu=document.querySelector("#MenuBar")
   if(window.scrollY>150){
-  header.classList.remove('d-none')
+  header.classList.remove('d-lg-none')
   header.classList.add('inside-navbar-brand')
   mainmenu.classList.add('navbaranim')
   }
   else{
-    header.classList.add('d-none')
+    header.classList.add('d-lg-none')
     mainmenu.classList.remove('navbaranim')
   }
 });
