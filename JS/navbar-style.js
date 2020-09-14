@@ -31,4 +31,9 @@ window.addEventListener("scroll",function () {
     header.classList.add('d-none')
     mainmenu.classList.remove('navbaranim')
   }
-})
+});
+$(document).ready(function () {
+  $(".navbar-toggler").on("click",function () {
+    $(".mobileMenu").toggleClass("open");
+  });
+});

@@ -79,7 +79,7 @@ body{
 }
 @media (max-width:991px) {
   #Main-Menu #navbarNavDropdown ul{
-    animation:translator 1s;
+    animation:translator 0.6s;
   }
   @keyframes translator {
     from{
@@ -89,6 +89,40 @@ body{
       transform: translate(0px,0px);
     }
   }
+}
+@media (max-width:991px) {
+  .mobileMenu{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    transform: translateX(-100%);
+    transition: all ease 0.25s;
+    background-color: white;
+
+  }
+  .open{
+    transform: translateX(0);
+  }
+  .navbar-nav{
+    overflow-y: auto;
+  }
+  #navbarNavDropdown .navbar-nav li{
+    background-color: #f2f4f8;
+    margin-top: 2px;
+  }
+  /*.open{
+    animation: translator 1s;
+  }
+  @keyframes translator {
+    from{
+      transform: translateX(-100%);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }*/
 }
 
 #Main-Menu nav #navbarNavDropdown .navbar-nav li a:hover{
