@@ -35,5 +35,17 @@ window.addEventListener("scroll",function () {
 $(document).ready(function () {
   $(".navbar-toggler").on("click",function () {
     $(".mobileMenu").toggleClass("open");
+    $("#navbutton").toggleClass("d-none")
+    //$("#closebutton").toggleClass("d-none")
   });
+  $('#navbarDropdownMenuNonTech').on("click",function () {
+    $("#megamenu").toggleClass("d-none");
+  });
+  $("#closebutton").on("click",function () {
+    $(".mobileMenu").toggleClass("open");
+    $("#navbutton").toggleClass("d-none");
+  });
+  $("#sportsbutton").on("click",function () {
+    $("#sportsubmenu").toggleClass("d-none");
+  })
 });

@@ -56,6 +56,10 @@ body{
     top: 10px;
     width: 50%;
   }
+  #megamenu,#sportsubmenu{
+    animation: fadeIn 1.5s,translater 0.8s;
+    background: none;
+  }
 }
 @media (min-width:576px) and (max-width:767px) {
   .mysocial-media{
@@ -69,6 +73,10 @@ body{
     top: 10px;
     width: 50%;
   }
+  #megamenu,#sportsubmenu{
+    animation: fadeIn 1.5s,translater 0.8s;
+    background: none;
+  }
 }
 @media (max-width:575px) {
   .mysocial-media{
@@ -81,6 +89,10 @@ body{
     left: 10px;
     top: 10px;
     width: 60%;
+  }
+  #megamenu,#sportsubmenu{
+    animation: fadeIn 1.5s,translater 0.8s;
+    background: none;
   }
 }
 
@@ -106,6 +118,11 @@ body{
 .inside-navbar-brand{
   animation: img 0.3s;
   padding-bottom: 10px;
+}
+#closebutton{
+  background-color: white;
+  border: none;
+  padding: 5px;
 }
 @keyframes img {
   from{
@@ -141,17 +158,20 @@ body{
     transform: translateX(-100%);
     transition: all ease 0.25s;
     background-color: white;
-
   }
   .open{
     transform: translateX(0);
   }
   .navbar-nav{
     overflow-y: auto;
+    overflow-x: auto;
   }
   #navbarNavDropdown .navbar-nav li{
     background-color: #f2f4f8;
     margin-top: 2px;
+  }
+  h6{
+      background-color: #f2f4f8;
   }
 }
 
@@ -170,8 +190,11 @@ body{
     display: block;
   }
   .dropdown-menu{
-    animation: fadeIn 1.5s,translater 0.8s;
+    animation: fadeIn 0.5s,translater 0.5s;
     background: none;
+  }
+  #megamenu div a{
+    padding: 5px;
   }
   @keyframes fadeIn {
     from{
@@ -184,6 +207,17 @@ body{
   @keyframes translater {
     from{
       top: 130px;
+    }
+  }
+  .dropright:hover>.dropmenu2{
+    display: block;
+  }
+  .dropmenu2{
+    animation: translateX 0.8s,fadeIn 1.5s;
+  }
+  @keyframes translateX {
+    from{
+      right: 130px;
     }
   }
 }

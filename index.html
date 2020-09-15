@@ -46,19 +46,134 @@
         <a class="navbar-brand d-lg-none inside-navbar-brand ml-lg-0 ml-2 mr-auto" id="inside-navbar-brand" href="index.html">
           <img src="Images/bloggee.png" width="161px" height="30px" alt="logo" loading="lazy">
         </a>
-        <button class="navbar-toggler align-self-start p-3" type="button">
+        <button id="navbutton" class="navbar-toggler align-self-start p-3" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse mobileMenu d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end p-3 p-lg-0 mt-7 mt-lg-0" id="navbarNavDropdown">
           <ul class="navbar-nav mx-lg-auto align-self-stretch">
+            <li class="ml-auto">
+              <button type="button" name="close" id="closebutton" class="d-block d-lg-none"><h3 style="font-family:'Poppins', sans-serif;color:black;">X</h3></button>
+            </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">TECHNICAL</a>
+            <li class="nav-item dropdown">
+              <a id="technicaldropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TECHNICAL</a>
+              <div class="dropdown-menu" aria-labelledby="technicaldropdown">
+                <a class="dropdown-item" href="#">HACKATHON</a>
+                <a class="dropdown-item" href="#">MOCK PLACEMENT</a>
+                <a class="dropdown-item" href="#">SOFTWARE DOCUMENTATION</a>
+                <a class="dropdown-item" href="#">TECHNOHUNT</a>
+                <a class="dropdown-item" href="#">BLIND CODE</a>
+                <a class="dropdown-item" href="#">CHEMSHALA</a>
+                <a class="dropdown-item" href="#">TECH EXPO</a>
+                <a class="dropdown-item" href="#">PROTOTYPE</a>
+                <a class="dropdown-item" href="#">TECHNICAL POSTER PRESENTATION</a>
+                <a class="dropdown-item" href="#">TECHNICAL QUIZ</a>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">NON-TECHNICAL</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdownMenuNonTech">NON-TECHNICAL</a>
+              <div class="dropdown-menu" id="nontechsubmenu">
+                <div class="dropright d-none d-lg-block">
+                  <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GAMING</a>
+                  <div class="dropdown-menu" id="dropmenu2">
+                    <a class="dropdown-item" href="#">PUBG</a>
+                    <a class="dropdown-item" href="#">LIVE CS</a>
+                    <a class="dropdown-item" href="#">FIFA</a>
+                    <a class="dropdown-item" href="#">LAN GAMING</a>
+                  </div>
+                </div>
+                <div class="dropright d-none d-lg-block">
+                  <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" id="dancesubmenu" aria-haspopup="true" aria-expanded="false">DANCE</a>
+                  <div class="dropdown-menu" id="dropmenu2" aria-labelledby="dancesubmenu">
+                    <a class="dropdown-item" href="#">SOLO DANCE</a>
+                    <a class="dropdown-item" href="#">GROUP DANCE</a>
+                    <a class="dropdown-item" href="#">DUET</a>
+                  </div>
+                </div>
+                <div class="dropright d-none d-lg-block">
+                  <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ARTISTRY</a>
+                  <div class="dropdown-menu" id="dropmenu2">
+                    <a class="dropdown-item" href="#">FILMZ</a>
+                    <a class="dropdown-item" href="#">PICTURESQUE</a>
+                    <a class="dropdown-item" href="#">STORY & POETRY</a>
+                    <a class="dropdown-item" href="#">FACE PAINTING</a>
+                    <a class="dropdown-item" href="#">TEESH ART</a>
+                  </div>
+                </div>
+                <div class="dropright d-none d-lg-block">
+                  <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SINGING</a>
+                  <div class="dropdown-menu" id="dropmenu2">
+                    <a class="dropdown-item" href="#">SOLO</a>
+                    <a class="dropdown-item" href="#">DUET</a>
+                    <a class="dropdown-item" href="#">INSTRUMENTAL</a>
+                    <a class="dropdown-item" href="#">BAND WARS</a>
+                  </div>
+                </div>
+                <div class="dropright d-none d-lg-block">
+                  <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FUN</a>
+                  <div class="dropdown-menu" id="dropmenu2">
+                    <a class="dropdown-item" href="#">CSI(MURDER MYSTERY)</a>
+                    <a class="dropdown-item" href="#">ESCAPE THE ROOM</a>
+                    <a class="dropdown-item" href="#">ELOCUTION</a>
+                    <a class="dropdown-item" href="#">SCAVENGER HUNT</a>
+                    <a class="dropdown-item" href="#">WATER WARRIOR</a>
+                    <a class="dropdown-item" href="#">FASHION SHOW</a>
+                    <a class="dropdown-item" href="#">DEBATE</a>
+                    <a class="dropdown-item" href="#">WOLF OF WALL STREET</a>
+                    <a class="dropdown-item" href="#">SALT ACT</a>
+                    <a class="dropdown-item" href="#">INQUISITIVE</a>
+                    <a class="dropdown-item" href="#">TREASURE HUNT</a>
+                  </div>
+                </div>
+                <div class="container d-none d-lg-none" id="megamenu" style="font-family:'Poppins', sans-serif;color:black;">
+                  <div class="row">
+                    <div class=" col-sm-3 col-lg-3">
+                      <h6>GAMING</h6>
+                      <a class="dropdown-item" href="#">PUBG</a>
+                      <a class="dropdown-item" href="#">LIVE CS</a>
+                      <a class="dropdown-item" href="#">FIFA</a>
+                      <a class="dropdown-item" href="#">LAN GAMING</a>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                      <h6>DANCE</h6>
+                      <a class="dropdown-item" href="#">SOLO DANCE</a>
+                      <a class="dropdown-item" href="#">GROUP DANCE</a>
+                      <a class="dropdown-item" href="#">DUET</a>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                      <h6>SINGING</h6>
+                      <a class="dropdown-item" href="#">SOLO</a>
+                      <a class="dropdown-item" href="#">DUET</a>
+                      <a class="dropdown-item" href="#">INSTRUMENTAL</a>
+                      <a class="dropdown-item" href="#">BAND WARS</a>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                      <h6>ARTISTRY</h6>
+                      <a class="dropdown-item" href="#">FILMZ</a>
+                      <a class="dropdown-item" href="#">PICTURESQUE</a>
+                      <a class="dropdown-item" href="#">STORY & POETRY</a>
+                      <a class="dropdown-item" href="#">FACE PAINTING</a>
+                      <a class="dropdown-item" href="#">TEESH ART</a>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                      <h6>FUN</h6>
+                      <a class="dropdown-item" href="#">CSI(MURDER MYSTERY)</a>
+                      <a class="dropdown-item" href="#">ESCAPE THE ROOM</a>
+                      <a class="dropdown-item" href="#">ELOCUTION</a>
+                      <a class="dropdown-item" href="#">SCAVENGER HUNT</a>
+                      <a class="dropdown-item" href="#">WATER WARRIOR</a>
+                      <a class="dropdown-item" href="#">FASHION SHOW</a>
+                      <a class="dropdown-item" href="#">DEBATE</a>
+                      <a class="dropdown-item" href="#">WOLF OF WALL STREET</a>
+                      <a class="dropdown-item" href="#">SALT ACT</a>
+                      <a class="dropdown-item" href="#">INQUISITIVE</a>
+                      <a class="dropdown-item" href="#">TREASURE HUNT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,8 +188,86 @@
                 <a class="dropdown-item" href="#">CHEMICAL</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SPORTS</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="sportsbutton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">SPORTS</a>
+                <div class="dropdown-menu">
+                  <div class="dropright d-none d-lg-block">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BOARD GAMES</a>
+                    <div class="dropdown-menu" id="dropmenu2">
+                      <a class="dropdown-item" href="#">CHESS</a>
+                      <a class="dropdown-item" href="#">CARROM(SINGLES)</a>
+                      <a class="dropdown-item" href="#">CARROM(DUET)</a>
+                      <a class="dropdown-item" href="#">ANTI CHESS</a>
+                    </div>
+                  </div>
+                    <div class="dropright d-none d-lg-block">
+                      <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRICKET</a>
+                      <div class="dropdown-menu" id="dropmenu2">
+                        <a class="dropdown-item" href="#">BOX CRICKET</a>
+                        <a class="dropdown-item" href="#">NEON CRICKET</a>
+                        <a class="dropdown-item" href="#">FIELD CRICKET</a>
+                        <a class="dropdown-item" href="#">ONE ON ONE CRICKET</a>
+                      </div>
+                    </div>
+                      <div class="dropright d-none d-lg-block">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FOOTBALL</a>
+                        <div class="dropdown-menu" id="dropmenu2">
+                          <a class="dropdown-item" href="#">FOOTBALL LEAGUE</a>
+                          <a class="dropdown-item" href="#">3 A-SIDE FUTSAL</a>
+                          <a class="dropdown-item" href="#">INTERDEPARTMENT FOOTBALL</a>
+                        </div>
+                      </div>
+                      <div class="dropright d-none d-lg-block">
+                        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">FIELD SPORTS</a>
+                        <div class="dropdown-menu" id="dropmenu2">
+                          <a class="dropdown-item" href="#">BADMINTON</a>
+                          <a class="dropdown-item" href="#">KABBADI</a>
+                          <a class="dropdown-item" href="#">ATHLETICS</a>
+                          <a class="dropdown-item" href="#">KHO-KHO</a>
+                          <a class="dropdown-item" href="#">TUG OF WAR</a>
+                        </div>
+                      </div>
+
+                  <div class="container d-none d-lg-none" id="sportsubmenu" style="font-family:'Poppins', sans-serif;color:black;">
+                    <div class="row">
+                      <div class="col-lg-3 col-sm-4">
+                        <a class="dropdown-item" href="#">BOX CRICKET</a>
+                        <a class="dropdown-item" href="#">3 A-SIDE FUTSAL</a>
+                        <a class="dropdown-item" href="#">FIELD CRICKET</a>
+                        <a class="dropdown-item" href="#">CHESS</a>
+                      </div>
+                      <div class="col-lg-3 col-sm-4">
+                        <a class="dropdown-item" href="#">FOOTBALL LEAGUE</a>
+                        <a class="dropdown-item" href="#">NEON CRICKET</a>
+                        <a class="dropdown-item" href="#">CARROM(DUET)</a>
+                        <a class="dropdown-item" href="#">INTERDEPARTMENT FOOTBALL</a>
+                      </div>
+                      <div class="col-lg-3 col-sm-4">
+                        <a class="dropdown-item" href="#">ONE ON ONE CRICKET</a>
+                        <a class="dropdown-item" href="#">CARROM(SINGLES)</a>
+                        <a class="dropdown-item" href="#">ANTI CHESS</a>
+                        <a class="dropdown-item" href="#">BADMINTON</a>
+                        <a class="dropdown-item" href="#">ATHLETICS</a>
+                        <a class="dropdown-item" href="#">KABBADI</a>
+                        <a class="dropdown-item" href="#">KHO-KHO</a>
+                        <a class="dropdown-item" href="#">TUG OF WAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SIGMA
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="my-menu-dropdown">
+                <a class="dropdown-item" href="#">MUDRAKALA</a>
+                <a class="dropdown-item" href="#">CRESCENDO</a>
+                <a class="dropdown-item" href="#">THE LITERATURE CLUB</a>
+                <a class="dropdown-item" href="#">CREW 5678</a>
+                <a class="dropdown-item" href="#">NAUTANKI</a>
+                <a class="dropdown-item" href="#">CAMERA</a>
+              </div>
             </li>
           </ul>
         </div>
