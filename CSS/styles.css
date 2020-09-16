@@ -234,4 +234,36 @@ body{
     height: 80vh;
   }
 }
+h1{
+  font-family: 'Poppins',cursive;
+  color: black;
+  margin: 20px;
+}
+#carouselExampleIndicators{
+  margin: 10px;
+}
 /*Main Carousel Ends*/
+/*Top blog Carousel starts*/
+#Topblogcard{
+  width: 25rem;
+  height: 70vh;
+  box-shadow: 15px 15px 20px grey;
+  margin: 20px;
+  font-family: 'Poppins',cursive;
+  color: black;
+}
+#Topblogcard img{
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  object-position:
+}
+#Topblogcard .card-footer{
+  position: relative;
+}
+#Topblogcard .card-footer a{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+/*Top Blog Carousel ends*/
