@@ -223,3 +223,15 @@ body{
 }
 
 /*Menu-bar ends*/
+/*Main-Carousel starts*/
+@media (max-width:991px) {
+  #carouselExampleIndicators .carousel-inner .carousel-item .card img{
+    height: 60vh;
+  }
+}
+@media (min-width:992px) {
+  #carouselExampleIndicators .carousel-inner .carousel-item .card img{
+    height: 80vh;
+  }
+}
+/*Main Carousel Ends*/
