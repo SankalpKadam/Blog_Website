@@ -49,3 +49,4 @@ $(document).ready(function () {
     $("#sportsubmenu").toggleClass("d-none");
   })
 });
+AOS.init();

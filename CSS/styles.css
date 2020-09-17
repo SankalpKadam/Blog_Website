@@ -461,3 +461,54 @@ animation:scaler2 ease 5s;
   border-radius: 20px;
 }
 /*LoginForm Ends*/
+/*Footer Starts*/
+#footer{
+  margin-top: 50px;
+  color: white;
+}
+#About{
+  margin-top: 20px;
+  padding: 20px;
+}
+#About h3{
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins',cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#About p{
+  font-family: 'Cairo', sans-serif;
+}
+#instafeed{
+  margin-top: 20px;
+}
+#instafeed h3{
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins',cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#instafeed img{
+  display: inline-block;
+  width: 25%;
+  height: 50%;
+  margin: .3rem .4rem;
+}
+#footersocial{
+  margin-top: 20px;
+}
+#footersocial h3{
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins',cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#footersocial a{
+  font-size: 25px;
+  margin: 10px;
+  color: white;
+}
+/*Footer Ends*/
