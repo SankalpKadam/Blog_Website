@@ -224,14 +224,36 @@ body{
 
 /*Menu-bar ends*/
 /*Main-Carousel starts*/
+@media (max-width:567px) {
+  #carouselExampleIndicators .carousel-inner .carousel-item .card img{
+    height: 60vh;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item .card .contentofcard{
+    padding-top: 10%;
+  }
+}
+@media (min-width:568px) and (max-width:767px) {
+  #carouselExampleIndicators .carousel-inner .carousel-item .card img{
+    height: 70vh;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item .card .contentofcard{
+    padding-top: 10%;
+  }
+}
 @media (max-width:991px) {
   #carouselExampleIndicators .carousel-inner .carousel-item .card img{
     height: 60vh;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item .card .contentofcard{
+    padding-top: 10%;
   }
 }
 @media (min-width:992px) {
   #carouselExampleIndicators .carousel-inner .carousel-item .card img{
     height: 80vh;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item .card .contentofcard{
+    padding-top: 10%;
   }
 }
 h1{
@@ -244,6 +266,14 @@ h1{
 }
 /*Main Carousel Ends*/
 /*Top blog Carousel starts*/
+@media (max-width:576px) {
+  #Topblogcard{
+    height: 50vh;
+    box-shadow: 15px 15px 20px grey;
+    font-family: 'Poppins',cursive;
+    color: black;
+  }
+}
 #Topblogcard{
   width: 25rem;
   height: 70vh;
