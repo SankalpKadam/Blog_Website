@@ -375,11 +375,25 @@ animation:scaler2 ease 5s;
     padding: 10px;
     margin-top: 100px;
   }
+  #About-Us{
+    margin: 50px;
+    margin-top: 150px;
+  }
+  #LoginForm{
+    margin: 50px;
+    margin-top: 150px;
+  }
 }
 @media (max-width:991px) {
   .side-categories{
     padding: 10px;
     margin-top: 40px;
+  }
+  #About-Us{
+    margin: 40px;
+  }
+  #LoginForm{
+    margin: 40px;
   }
 }
 #side-event a{
@@ -394,3 +408,56 @@ animation:scaler2 ease 5s;
   font-weight: bold;
 }
 /*Side Event Ends*/
+/*About Us Starts*/
+#About-Us h5{
+  text-decoration: none;
+  color: black;
+  font-family:"Times New Roman",Times,serif;
+  font-weight: bold;
+}
+#About-Us img{
+  margin: 10px;
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  object-position:center;
+}
+#About-Us a{
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  font-size: 20px;
+}
+#About-Us h3{
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins',cursive;
+  font-weight: bold;
+}
+#About-Us p{
+  font-family: 'Cairo', sans-serif;
+}
+/*About Us Ends*/
+/*LoginForm Starts*/
+#LoginForm h5{
+  text-decoration: none;
+  color: black;
+  font-family:"Times New Roman",Times,serif;
+  font-weight: bold;
+}
+#LoginForm form{
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins',cursive;
+  font-weight: bold;
+}
+#LoginForm form input{
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px grey;
+  border: black;
+}
+#LoginForm .btnsubmit a{
+  border-radius: 20px;
+}
+/*LoginForm Ends*/
