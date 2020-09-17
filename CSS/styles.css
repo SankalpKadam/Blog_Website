@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredoka+One&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
 body{
   box-sizing: border-box;
   margin: 0;
@@ -313,7 +314,6 @@ animation:scaler2 ease 5s;
     color: black;
   }
 }
-
 #Topblogcard img{
   width: 100%;
   height: 50%;
@@ -329,3 +329,68 @@ animation:scaler2 ease 5s;
   top: 5px;
 }
 /*Top Blog Carousel ends*/
+/*Main Blog Content Starts*/
+.thumbnail-blog{
+  position: relative;
+  margin-top: 40px;
+}
+#postinfo{
+  background-color:white;
+  color: white;
+  position: absolute;
+  bottom: -27px;
+  left:25%;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+#postinfo a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-style: 'Poppins',cursive;
+  font-weight: bold;
+}
+#blogdetails{
+  position: relative;
+  top: 30px;
+}
+#blogdetails a h5{
+  text-decoration: none;
+  color: black;
+  font-family:"Times New Roman",Times,serif;
+  font-weight: bold;
+}
+#blogdetails a{
+  font-family: 'Poppins',cursive;
+  border-radius: 20px;
+}
+#blogdetails p{
+  font-family: 'Cairo', sans-serif;
+  font-weight: normal;
+}
+/*Main Blog Content Ends*/
+/*Side Event*/
+@media (min-width:992px) {
+  .side-categories{
+    padding: 10px;
+    margin-top: 100px;
+  }
+}
+@media (max-width:991px) {
+  .side-categories{
+    padding: 10px;
+    margin-top: 40px;
+  }
+}
+#side-event a{
+  margin: 10px;
+  font-family: 'Poppins',cursive;
+  border-radius: 20px;
+}
+#side-event h5{
+  text-decoration: none;
+  color: black;
+  font-family:"Times New Roman",Times,serif;
+  font-weight: bold;
+}
+/*Side Event Ends*/
