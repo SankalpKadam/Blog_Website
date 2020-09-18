@@ -227,7 +227,7 @@ body{
 /*Main-Carousel starts*/
 @media (max-width:567px) {
   #carouselExampleIndicators .carousel-inner .carousel-item .card img{
-    height: 70vh;
+    height: 50vh;
   }
   #carouselExampleIndicators .carousel-inner .carousel-item .card .contentofcard{
     padding-top: 10%;
@@ -243,7 +243,7 @@ body{
 }
 @media (min-width:768px) and (max-width:991px) {
   #carouselExampleIndicators .carousel-inner .carousel-item .card img{
-    height: 80vh;
+    height: 45vh;
   }
   #carouselExampleIndicators .carousel-inner .carousel-item .card .contentofcard{
     padding-top: 10%;
@@ -281,7 +281,7 @@ animation:scaler2 ease 5s;
 @media (max-width:567px) {
   #Topblogcard{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     font-family: 'Poppins',cursive;
     box-shadow: 15px 15px 20px grey;
     color: black;
@@ -290,7 +290,7 @@ animation:scaler2 ease 5s;
 @media (min-width:568px) and (max-width:767px) {
   #Topblogcard{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     box-shadow: 15px 15px 20px grey;
     font-family: 'Poppins',cursive;
     color: black;
@@ -299,7 +299,7 @@ animation:scaler2 ease 5s;
 @media (min-width:768px) and (max-width:991px) {
   #Topblogcard{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     box-shadow: 15px 15px 20px grey;
     font-family: 'Poppins',cursive;
     color: black;
@@ -331,19 +331,64 @@ animation:scaler2 ease 5s;
 }
 /*Top Blog Carousel ends*/
 /*Main Blog Content Starts*/
+@media (max-width:567px) {
+  #postinfo{
+    background-color:white;
+    color: white;
+    position: absolute;
+    bottom: -27px;
+    left:3%;
+    border-radius: 3rem;
+    padding: 1rem;
+  }
+  #postinfo a{
+    font-size: 16px;
+  }
+}
+@media (min-width:568px) and (max-width:767px) {
+  #postinfo{
+    background-color:white;
+    color: white;
+    position: absolute;
+    bottom: -27px;
+    left:20%;
+    border-radius: 3rem;
+    padding: 1rem;
+  }
+}
+@media (min-width:768px) and (max-width:991px) {
+  #postinfo{
+    background-color:white;
+    color: white;
+    position: absolute;
+    bottom: -27px;
+    left:25%;
+    border-radius: 3rem;
+    padding: 1rem;
+  }
+  #postinfo a{
+    font-size: 18px;
+  }
+}
+@media (min-width:992px) {
+  #postinfo{
+    background-color:white;
+    color: white;
+    position: absolute;
+    bottom: -27px;
+    left:25%;
+    border-radius: 3rem;
+    padding: 1rem;
+  }
+  #postinfo a{
+    font-size: 18px;
+  }
+}
 .thumbnail-blog{
   position: relative;
   margin-top: 40px;
 }
-#postinfo{
-  background-color:white;
-  color: white;
-  position: absolute;
-  bottom: -27px;
-  left:25%;
-  border-radius: 3rem;
-  padding: 1rem;
-}
+
 #postinfo a{
   text-decoration: none;
   color: black;
