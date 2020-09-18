@@ -431,6 +431,10 @@ animation:scaler2 ease 5s;
     margin: auto;
     margin-top: 20px;
   }
+  .side-categories{
+    padding: 10px;
+    margin-top: 40px;
+  }
 }
 @media (min-width:992px) {
   .side-categories{
@@ -477,12 +481,31 @@ animation:scaler2 ease 5s;
   font-family:"Times New Roman",Times,serif;
   font-weight: bold;
 }
+#AboutUsCarousel h5{
+  text-decoration: none;
+  color: black;
+  font-family:"Times New Roman",Times,serif;
+  font-weight: bold;
+}
+#AboutUsCarousel img{
+  margin: 10px;
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  object-position:center;
+}
 #About-Us img{
   margin: 10px;
   width:150px;
   height:150px;
   object-fit:cover;
   object-position:center;
+}
+#AboutUsCarousel a{
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  font-size: 20px;
 }
 #About-Us a{
   text-decoration: none;

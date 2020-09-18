@@ -598,7 +598,7 @@
           <a href="#" class="btn btn-dark">FIFA</a>
           <a href="#" class="btn btn-dark">CRESCENDO</a>
       </div>
-      <div class="AboutUs" id="About-Us">
+      <div class="AboutUs d-none d-sm-block" id="About-Us">
         <h5 class="text-center">MEET THE TEAM</h5>
         <div class="sankyabout text-center">
           <img class="img-responsive image-resize rounded-circle text-center" src="Images/sanky.jpg" alt="sankalp image">
@@ -612,7 +612,7 @@
           <a href="https://twitter.com/SankalpKadam5"><i class="fa fa-twitter"></i></a>
         </div>
       </div>
-      <div class="AboutUs" id="About-Us">
+      <div class="AboutUs d-none d-sm-block" id="About-Us">
         <div class="Mayureshabout text-center">
           <img class="img-responsive image-resize rounded-circle text-center" src="Images/mayu.png" alt="Mayuresh Image">
         </div>
@@ -625,6 +625,49 @@
           <a href="#"><i class="fa fa-twitter"></i></a>
         </div>
       </div>
+      <!--About Us Carousel only for smaller devices-->
+      <div class="mycarousel d-block d-sm-none" id="AboutUsCarousel">
+        <h5 class="text-center">MEET THE TEAM</h5>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval=2000>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="sankyabout text-center">
+                <img class="img-responsive image-resize rounded-circle text-center" src="Images/sanky.jpg" alt="sankalp image">
+              </div>
+              <div class="about-details text-center">
+                <h3>Sankalp Kadam</h3>
+                <p>TE COMPS</p>
+                <p>Enthusiast about programming languages and software development.</p>
+                <a href="https://www.facebook.com/sankalp.kadam.71/"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/sankalp._.007/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/SankalpKadam5"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="Mayureshabout text-center">
+                <img class="img-responsive image-resize rounded-circle text-center" src="Images/mayu.png" alt="Mayuresh Image">
+              </div>
+              <div class="about-details text-center">
+                <h3>Mayuresh Kulkarni</h3>
+                <p>TE COMPS</p>
+                <p>Enthusiast about programming languages and software development.</p>
+                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!--About Us Carousel Ends-->
       <div class="LoginForm" id="LoginForm">
         <h5 class="text-center">LOGIN</h5>
         <form class="text-center" action="index.html" method="post">
