@@ -48,5 +48,22 @@ $(document).ready(function () {
   $("#sportsbutton").on("click",function () {
     $("#sportsubmenu").toggleClass("d-none");
   })
+  $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          768:{
+              items:2
+          },
+          992:{
+              items:3
+          }
+      }
+  })
 });
+
 AOS.init();
