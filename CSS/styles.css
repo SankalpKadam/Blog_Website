@@ -415,6 +415,22 @@ animation:scaler2 ease 5s;
 }
 /*Main Blog Content Ends*/
 /*Side Event*/
+@media (max-width:567px) {
+  #LoginForm{
+    margin: auto;
+    margin-top: 20px;
+  }
+  .side-categories{
+    padding: 10px;
+    margin-top: 40px;
+  }
+}
+@media (min-width:568px) and (max-width:767px) {
+  #LoginForm{
+    margin: auto;
+    margin-top: 20px;
+  }
+}
 @media (min-width:992px) {
   .side-categories{
     padding: 10px;
@@ -429,7 +445,7 @@ animation:scaler2 ease 5s;
     margin-top: 150px;
   }
 }
-@media (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
   .side-categories{
     padding: 10px;
     margin-top: 40px;
