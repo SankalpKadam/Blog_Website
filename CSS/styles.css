@@ -274,7 +274,8 @@ animation:scaler2 ease 5s;
   }
 }
 #carouselExampleIndicators{
-  margin: 10px;
+  margin: 0;
+  padding: 0;
 }
 /*Main Carousel Ends*/
 /*Top blog Carousel starts*/
