@@ -283,6 +283,7 @@ animation:scaler2 ease 5s;
     width: 100%;
     height: 100vh;
     font-family: 'Poppins',cursive;
+    box-shadow: 15px 15px 20px grey;
     color: black;
   }
 }
@@ -346,7 +347,6 @@ animation:scaler2 ease 5s;
 #postinfo a{
   text-decoration: none;
   color: black;
-  font-size: 18px;
   font-style: 'Poppins',cursive;
   font-weight: bold;
 }
