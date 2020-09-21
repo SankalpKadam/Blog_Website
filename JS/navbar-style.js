@@ -45,6 +45,7 @@ $(document).ready(function () {
     $(".mobileMenu").toggleClass("open");
     $("#megamenu").toggleClass("d-none");
     $("#navbutton").toggleClass("d-none");
+    $("#sportsubmenu").toggleClass("d-none");
   });
   $("#sportsbutton").on("click",function () {
     $("#sportsubmenu").toggleClass("d-none");
