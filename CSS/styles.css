@@ -12,6 +12,7 @@ body{
   font-style: italic;
   height: 40px;
   overflow: hidden;
+  outline: none;
   font-family: 'Comic Neue', cursive;
 }
 .search-form button{
