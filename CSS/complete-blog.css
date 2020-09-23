@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredoka+One&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+body{
+  font-family:'Poppins',cursive;
+  overflow-x: hidden;
+}
+/*Search bar tab and social media icons*/
+.search-form input{
+  border: none;
+  color: grey;
+  font-style: italic;
+  height: 40px;
+  overflow: hidden;
+  outline: none;
+  font-family: 'Comic Neue', cursive;
+}
+.search-form button{
+  background: white;
+  border: none;
+}
+.search-form button i:hover{
+  color: #ffb6c1;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.mysocial-media a {
+  text-decoration: none;
+  color: black;
+}
+.mysocial-media a:hover{
+  color:#ffb6c1;
+  transition: 0.5s ease;
+}
+/*Search bar responsive*/
+@media (min-width:992px) {
+  .mysocial-media{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+  .search-form{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    width: 50%;
+  }
+}
+@media (min-width:768px) and (max-width:991px) {
+  .mysocial-media{
+    position: absolute;
+    right: 80px;
+    top: 20px;
+  }
+  .search-form{
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    width: 50%;
+  }
+}
+@media (min-width:576px) and (max-width:767px) {
+  .mysocial-media{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+  }
+  .search-form{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    width: 50%;
+  }
+}
+@media (max-width:575px) {
+  .mysocial-media{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+  }
+  .search-form{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 60%;
+  }
+}
+
+.mysocial-media a{
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+}
+.top-search-bar{
+  position:relative;
+  box-shadow: 5px 5px 20px grey;
+  height: 60px;
+}
+/*Menu logo*/
+.navbar a img{
+  text-align: center !important;
+  margin-top: 30px;
+}
+/*Menu-Bar*/
+#Main-Menu .navbar{
+  background-color: white;
+}
+.inside-navbar-brand{
+  animation: img 0.3s;
+  padding-bottom: 10px;
+}
+#closebutton{
+  background-color: white;
+  border: none;
+  padding: 5px;
+}
+@keyframes img {
+  from{
+    opacity: 0
+  }
+  to{
+    opacity: 1
+  }
+}
+.navbaranim{
+  animation: img 0.5s;
+}
+@media (max-width:991px) {
+  #Main-Menu #navbarNavDropdown ul{
+    animation:translator 0.6s;
+  }
+  @keyframes translator {
+    from{
+      transform: translate(-100px,0px);
+    }
+    to{
+      transform: translate(0px,0px);
+    }
+  }
+}
+@media (max-width:991px) {
+  .mobileMenu{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    transform: translateX(-100%);
+    transition: all ease 0.25s;
+    background-color: white;
+  }
+  .open{
+    transform: translateX(0);
+  }
+  .navbar-nav{
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  #navbarNavDropdown .navbar-nav li{
+    background-color: #f2f4f8;
+    margin-top: 2px;
+  }
+  h6{
+      background-color: #f2f4f8;
+  }
+}
+
+#Main-Menu nav #navbarNavDropdown .navbar-nav li a:hover{
+  color:#ffb6c1;
+  transition: 0.5s ease;
+}
+#Main-Menu nav #navbarNavDropdown .navbar-nav li a{
+   font-family: 'Poppins', sans-serif;
+   color: black;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+@media (min-width:991px) {
+  .dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+  .dropdown-menu{
+    animation: fadeIn 0.5s,translater 0.5s;
+    background: none;
+  }
+  #megamenu div a{
+    padding: 5px;
+  }
+  @keyframes fadeIn {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity:1;
+    }
+  }
+  @keyframes translater {
+    from{
+      top: 130px;
+    }
+  }
+  .dropright:hover>.dropmenu2{
+    display: block;
+  }
+  .dropmenu2{
+    animation: translateX 0.8s,fadeIn 1.5s;
+  }
+  @keyframes translateX {
+    from{
+      right: 130px;
+    }
+  }
+}
+
+/*Menu-bar ends*/
