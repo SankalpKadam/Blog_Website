@@ -401,6 +401,9 @@ animation:scaler2 ease 5s;
   position: relative;
   top: 30px;
 }
+#blogdetails a{
+  text-decoration: none;
+}
 #blogdetails a h5{
   text-decoration: none;
   color: black;
