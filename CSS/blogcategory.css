@@ -7,7 +7,8 @@ body{
   overflow-x: hidden;
 }
 h4{
-  font-family: 'Poppins',cursive;
+  font-family:'Poppins',cursive;
+  font-weight: bold;
   padding-top: 30px;
 }
 /*Recent post section*/
@@ -33,6 +34,7 @@ h4{
   margin-bottom: 20px;
 }
 /*Recent post section Ends*/
+/*Side Category Starts*/
 @media (max-width:567px) {
   #side-event{
     margin-top: 50px;
