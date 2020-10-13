@@ -1,0 +1,19 @@
+{
+  "name": "blog_website",
+  "version": "1.0.0",
+  "description": "This is a college blog website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SankalpKadam/Blog_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SankalpKadam/Blog_Website/issues"
+  },
+  "homepage": "https://github.com/SankalpKadam/Blog_Website#readme"
+}
