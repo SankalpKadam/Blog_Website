@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SankalpKadam/Blog_Website/issues"
   },
-  "homepage": "https://github.com/SankalpKadam/Blog_Website#readme"
+  "homepage": "https://github.com/SankalpKadam/Blog_Website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
